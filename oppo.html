@@ -7,65 +7,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <style>
-        img {
-            border: 2px solid #ddd;
-            border-radius: 4px;
+        .wrapper {
+            width: 500px;
+            
+        }
+        .main-content{
+            display:flex;
+
+        }
+        .headline {
             text-align: center;
         }
 
         h2 {
-
-            font-size: 28px;
-            font-weight: bold;
-
-            text-align: left;
+            border: 2px solid gray;
+            display: inline-block;
+            padding: 5px 5px;
+        
         }
-
-        .tien {
-            color: red;
+        .product-first {
+        list-style-type: none;
         }
-
-        p {
-            font-size: 28px;
-            padding: 5px;
+        .product-second {
+            display: flex;
 
         }
+        .product-second ul{
+            list-style-type:none;
+        }
+        a {
+            text-decoration: none;
+            display: block;
+        }
 
-        div {
-            border-radius: 4px;
-            padding: 10px;
-            color: blue;
+        .st-param {
+            list-style-type: none;
+            border:1px solid;
+            background-color:aliceblue;
+            width:200px;
+            margin-left:5px;
+        }
+        .buy-now{
+            
+            background-color:blue;
+            color:aliceblue;
+            display:inline-block;
+            margin-left:50px;
+        }
+        .footer{
+            font-size:30px;
         }
     </style>
 </head>
 
 <body>
-    <h2>Oppo Reno8 T</h2>
-    <img src="https://images.fpt.shop/unsafe/fit-in/960x640/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/13/638118865320224027_HASP-Oppo%20Reno%208T%20(22).JPG"
-        width="500" height="300" />
-    <img src="https://images.fpt.shop/unsafe/fit-in/960x640/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/13/638118865047623071_HASP-Oppo%20Reno%208T%20(5).JPG"
-        width="500" height="300" />
-    <h2>iPhone 11</h2>
-    <p class="tien">Giá: 9.990.000₫</p>
-    <div class="st-param">
-        <ul>
-            <li>
-                <p>6.7 inch, AMOLED, FHD+, 1080 x 2412 Pixels</p>
-            </li>
-            <li>
-                <p>108.0 MP + 2.0 MP + 2.0 MP</p>
-            </li>
-            <li>
-                <p>
-                    32.0 MP</p>
-            </li>
-            <li>
-                <p>Snapdragon 695 5G</p>
-            </li>
-            <li>
-                <p>128 GB</p>
-            </li>
-        </ul>
+    <div class="wrapper">
+        <div class="headline">
+            <h2>CHI TIẾT SẢN PHẨM</h2>
+        </div>
+        <div class="main-content">
+        <div>
+            <ul class="product-first">
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="anh"></a>
+                            <img src="oppo.webp" alt="Oppo Reno8 T" title="Oppo Reno8 T" />
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="buy-now">Mua Ngay</a>
+                        <a href="" class="product-name">Oppo Reno8 T</a>
+                        <a href="" class="price">9.990.000 đ</a>
+                    </div>
+                    <div class="st-param">
+                        <ul>
+                            <li>
+                                <p>6.7 inch, AMOLED, FHD+, 1080 x 2412 Pixels</p>
+                            </li>
+                            <li>
+                                <p>108.0 MP + 2.0 MP + 2.0 MP</p>
+                            </li>
+                            <li>
+                                <p>
+                                    32.0 MP</p>
+                            </li>
+                            <li>
+                                <p>Snapdragon 695 5G</p>
+                            </li>
+                            <li>
+                                <p>128 GB</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+        <div class="product-second">
+            <ul>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="anh"></a>
+                            <img src="oplungoppo.webp" alt="op lung oppo" title="op lung " />
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="buy-now">Mua Ngay</a>
+                        <a href="" class="product-name">Ốp lưng Oppo Reno8 4G YVS</a>
+                        <a href="" class="price">140.000 đ</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="anh"></a>
+                            <img src="cuongluc.oppo.webp" alt="oppo" title="cuongluc" />
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="buy-now">Mua Ngay</a>
+                        <a href="" class="product-name">Miếng dán cường lực Oppo A94/Reno8/ Reno8 Z YVS
+                            
+                        </a>
+                        <a href="" class="price">150.000 đ</a>
+                    </div>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://ngovanloi123.github.io/hh.html"> «Quay về trang chủ</a>
+    </div>
+    </div>
 </body>
 
 </html>

@@ -7,63 +7,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
     <style>
-        img {
-            border: 2px solid #ddd;
-            border-radius: 4px;
+        .wrapper {
+            width: 500px;
+            
+        }
+        .main-content{
+            display:flex;
+
+        }
+        .headline {
             text-align: center;
         }
 
         h2 {
-
-            font-size: 28px;
-            font-weight: bold;
-
-            text-align: left;
+            border: 2px solid gray;
+            display: inline-block;
+            padding: 5px 5px;
+        
         }
-
-        .tien {
-            color: red;
+        .product-first {
+        list-style-type: none;
         }
-
-        p {
-            font-size: 28px;
-            padding: 5px;
+        .product-second {
+            display: flex;
 
         }
+        .product-second ul{
+            list-style-type:none;
+        }
+        a {
+            text-decoration: none;
+            display: block;
+        }
 
-        div {
-            border-radius: 4px;
-            padding: 10px;
-            color: blue;
+        .st-param {
+            list-style-type: none;
+            border:1px solid;
+            background-color:aliceblue;
+            width:200px;
+            margin-left:5px;
+        }
+        .buy-now{
+            
+            background-color:blue;
+            color:aliceblue;
+            display:inline-block;
+            margin-left:50px;
+        }
+        .footer{
+            font-size:30px;
         }
     </style>
 </head>
 
 <body>
-    <h2>iPhone 11</h2>
-    <img src="https://www.didongmy.com/vnt_upload/news/02_2020/thiet-ke-iphone-11-64gb-didongmy.jpg" width="500"
-        height="300" />
-    <img src="https://imgs.viettelstore.vn/Images/Product/ProductArchive/27/0-Nam%202019/Thang%209/11%2009/danh-gia-nhanh-iPhone-11-1.jpg"
-        width="500" height="300" />
-    <p class="tien">Giá: 11.499.000₫</p>
-    <div class="st-param">
-        <ul>
-            <li >
-                <p>6.1 inch, IPS LCD, Liquid Retina HD, 828 x 1792 Pixels</p>
-            </li>
-            <li data-info="Camera sau"><span class="icon-cam"></span>
-                <p>12.0 MP + 12.0 MP </p>
-            </li>
-            <li>
-                <p>12.0 MP </p>
-            </li>
-            <li>
-                <p>Apple A13 Bionic</p>
-            </li>
-            <li>
-                <p>64 GB</p>
-            </li>
-        </ul>
+    <div class="wrapper">
+        <div class="headline">
+            <h2>CHI TIẾT SẢN PHẨM</h2>
+        </div>
+        <div class="main-content">
+        <div>
+            <ul class="product-first">
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="anh"></a>
+                            <img src="phone11.webp" alt="iphone11" title="iphone 11" />
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="buy-now">Mua Ngay</a>
+                        <a href="" class="product-name">Iphone 11 64GB</a>
+                        <a href="" class="price">11.499.000 đ</a>
+                    </div>
+                    <div class="st-param">
+                        <ul>
+                            <li>
+                                <p>6.1 inch, IPS LCD, Liquid Retina HD, 828 x 1792 Pixels</p>
+                            </li>
+                            <li data-info="Camera sau"><span class="icon-cam"></span>
+                                <p>12.0 MP + 12.0 MP </p>
+                            </li>
+                            <li>
+                                <p>12.0 MP </p>
+                            </li>
+                            <li>
+                                <p>Apple A13 Bionic</p>
+                            </li>
+                            <li>
+                                <p>64 GB</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+        <div class="product-second">
+            <ul>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="anh"></a>
+                            <img src="oplung11.webp" alt="op lung iphone11" title="op lung iphone 11" />
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="buy-now">Mua Ngay</a>
+                        <a href="" class="product-name">Ốp lưng iPhone 11 Pro Max Silicon Black</a>
+                        <a href="" class="price">99.000 đ</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="anh"></a>
+                            <img src="cuongluc.webp" alt="iphone11" title="cuongluc" />
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="buy-now">Mua Ngay</a>
+                        <a href="" class="product-name">Miếng dán cường lực iPhone XS Max/iPhone 11 Pro Max YVS tràn
+                            viền</a>
+                        <a href="" class="price">95.000 đ</a>
+                    </div>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://ngovanloi123.github.io/hh.html"> «Quay về trang chủ</a>
+    </div>
+    </div>
 </body>
 
 </html>
