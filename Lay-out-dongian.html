@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body{
+            height:500px;
+            width:600px;
+            margin:0 auto;
+        }
+        .header{
+            background-color:orange;
+            height:40%;
+            
+        }
+        .header,.nav,.content,.article,.aside,.footer{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .nav{
+            height:10%;
+            background-color:darkcyan;
+        }
+        .main-content{
+            display:flex;
+            height:45%;
+        }
+        .article{
+            width:70%;
+            background-color:yellow;
+        }
+        .aside {
+            width:30%;
+            background-color:red;
+        }
+        .footer{
+            height:12%;
+            background-color:darkgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <span>header</span>
+
+    </div>
+    <div class="nav">
+        <span>menu</span>
+    </div>
+    <div class="main-content">
+        <div class="article">
+            <span>content</span>
+        </div>
+        <div class="aside">
+            <span>sidebar</span>
+        </div>
+    </div>
+    <div class="footer">
+        <span>footer</span>
+    </div>
+</body>
+
+</html>
