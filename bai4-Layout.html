@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            height: 500px;
+            display: flex;
+
+        }
+
+        .colum1,
+        .colum2,
+        .colum3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .colum1 {
+            background-color: red;
+            flex-basis: calc(100%/3);
+            margin-right:15px;
+        }
+
+        .colum2 {
+            background-color: green;
+            flex-basis: calc(100%/3);
+            margin-right:15px;
+        }
+
+        .colum3 {
+            background-color: blue;
+            flex-basis: calc(100%/3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="colum1">Height 400px</div>
+    <div class="colum2">Height 400px</div>
+    <div class="colum3">Height 400px</div>
+</body>
+
+</html>
