@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hiển thị danh sách sản phẩm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        #wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .headline {
+            text-align: center;
+        }
+
+        span {
+            color: antiquewhite;
+            font-size: 20px;
+            text-transform: uppercase;
+            background-color:indigo;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: aliceblue;
+            list-style-type: none;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        .product li img {
+            width: 250px;
+            height: 250px;
+            transition: transform 0.5s ease-in-out;
+
+        }
+
+        .product-item {
+            margin: 15px;
+        }
+
+        ul.product li .product-info a {
+            display: block;
+            text-decoration: none;
+        }
+
+        ul.product li .product-info a.product-cat {
+            font-size: 11px;
+            margin-top: 15px;
+            color: gray;
+        }
+
+        ul.product li .product-info a.product-name {
+            font-weight: bold;
+        }
+
+        .product-price {
+            color: crimson;
+            font-size: 20px;
+        }
+
+        a.buy-now {
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: aliceblue;
+            background-color:darkred;
+            padding: 15px;
+            text-align: center;
+        }
+        a.buy-now:hover{
+            background-color:brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="headline">
+            <span>sản phẩm công nghệ bán chạy nhất</span>
+        </div>
+        <ul class="product">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="iphone111.webp" alt="iphone 11" title="Iphone 11" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Iphone</a>
+                        <a href="" class="product-name">Iphone 11 64GB</a>
+                        <div class="product-price">11.499.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="iphone12.webp" alt="iphone 12" title="Iphone 12" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Iphone</a>
+                        <a href="" class="product-name">Iphone 12 128GB</a>
+                        <div class="product-price">15.599.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="iphone13.webp" alt="IPHONE 13" title="Iphone 13" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Iphone</a>
+                        <a href="" class="product-name">Iphone 13 Pro</a>
+                        <div class="product-price">17.990.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="oppo.webp" alt="oppo" title="Oppo Reno 8T" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Oppo</a>
+                        <a href="" class="product-name">Oppo Reno 8T</a>
+                        <div class="product-price">9.990.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="samsung.webp" alt="Samsung " title="Samsung galaxy s22 Ultra" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">SamSung</a>
+                        <a href="" class="product-name">SamSung Galaxy S22 Ultra</a>
+                        <div class="product-price">23.990.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="MACK.webp" alt="Macbook" title="MacBook" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Macbook</a>
+                        <a href="" class="product-name">MacBook Air M2 2022 13 inch
+                        </a>
+                        <div class="product-price">27.490.000 ₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="tainghe.webp" alt="tai nghe" title="Tai nghe Gaming" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Tai nghe</a>
+                        <a href="" class="product-name">Tai nghe gaming Corsair HS60 có mic
+                        </a>
+                        <div class="product-price">2.655.000 ₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="bàn phím.webp" alt="bàn phím" title="Bàn phím Gaming" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Bàn phím</a>
+                        <a href="" class="product-name">Bộ bàn phím chuột Gaming Prolink
+                        </a>
+                        <div class="product-price">600.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
