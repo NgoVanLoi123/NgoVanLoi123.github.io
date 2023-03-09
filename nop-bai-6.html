@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .wrapper {
+            width: 1290px;
+            margin: 50px auto;
+            display: flex;
+            position: relative;
+        }
+
+        .content {
+            margin: 40px 40px 40px 40px;
+            width: 75%;
+        }
+
+        .side-bar {
+            width: 20%;
+            position:absolute;
+            right: 1px;
+            top: 40px;
+
+        }
+
+
+        h3 {
+            width: 85%;
+            color: aliceblue;
+            background-color: blue;
+            text-align: center;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: darkslateblue;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .noi-dung {
+            margin: 50px 0;
+        }
+
+        .chitiet {
+            margin-top: 20px;
+
+        }
+        .icon a img{
+            position:fixed;
+            bottom: 0px;
+            right:1px;
+            width:100px;
+            opacity: 90%;
+        }
+        .icon a img:hover{
+            opacity: 1;
+        }
+        h1{
+            font-size:40px;
+        }
+       .content .first li img{
+        max-width:75%;
+       }
+       ul.first{
+        list-style: none;
+       }
+    p{
+        font-size:20px;
+    }
+    </style>
+</head>
+
+<body id="top">
+    <div class="wrapper">
+        <div class="content">
+        <h1>
+            Một số trang web cho phép tạo ảnh bằng cách gõ text
+        </h1>
+        <ul class="first">
+            <li><h2>1.DeepAI</h2>
+                <p>Trang web này cho phép bạn tạo ảnh mà không cần tài khoản luôn, nhưng sẽ có hạn chế hơn so với người dùng trả phí.
+
+                    Các bạn chỉ cần truy cập <a href="https://deepai.org/machine-learning-model/text2img">https://deepai.org/machine-learning-model/text2img</a>, nhập mô tả cho ảnh bạn muốn tạo ở mục Create an image from text prompt, chọn một phong cách bên dưới (trừ những cái bị khóa là dành cho member trả phí), sau đó bấm Generate.
+                    
+                    Ngồi chờ khoảng 1 phút, AI sẽ tạo ngẫu nhiên cho bạn 1 bức ảnh.
+                    
+                    Nếu vừa ý, bạn có thể bấm vào Download để tải ảnh về xài, hoặc bấm vào Enhance để phóng to ảnh lên. Nếu không thì nhập lại mô tả và Generate lại cho đến khi vừa ý.</p>
+                    <img src="ảnh-1.png" alt="ảnh">
+                    <p>Ngoài các chức năng free, bạn có thể đăng nhập và đăng ký các gói PRO để có nhiều chức năng hơn như: Private style, Private image generation, API access (cho developer), …</p>
+
+            </li>
+            <li><h2>2.Stable Diffusion</h2>
+                <p>Cách dùng tương tự DeepAI, tuy nhiên không có chọn style và mỗi lần tạo ảnh sẽ tạo ra 1 bộ 4 ảnh.</p>
+                <img src="anh-2.png" alt="ảnh">
+                <p>Ngoài ra, trang này dùng hoàn toàn miễn phí và không cần đăng nhập.</p>
+            </li>
+            <li> <h2>3.DALL-E</h2>
+                <p>Một sản phẩm khác của OpenAI, dùng chung tài khoản với ChatGPT, nên nếu bạn chưa có tài khoản thì có thể tham khảo bài viết này để đăng ký.
+
+                    Sau khi đăng ký xong, đăng nhập vào trang web <a href="https://openai.com/dall-e-2/ ">https://openai.com/dall-e-2/ </a> để tạo ảnh.
+                    
+                    Cách tạo ảnh cũng tương tự 2 website trên, nhập mô tả rồi bấm Generate và chờ AI tạo ảnh. Kết quả mỗi lần tạo là 1 bộ 4 ảnh tương tự nhau, sau đó chúng ta có thể chọn 1 ảnh trong đó và tiếp tục tạo ảnh dựa trên ảnh gốc đã chọn (tạo ra các biến thể khác).</p>
+                    <img src="anh-3.png" alt="ảnh">
+                    <p>Chú ý đây là dịch vụ có trả phí, tuy nhiên lần đầu đăng ký chúng ta sẽ có 50 credit để sử dụng trong vòng 1 tháng (tương đương với 50 lần tạo ảnh hoặc chỉnh sửa ảnh). Sau đó mỗi tháng chúng ta sẽ có thêm 15 credit hạn sử dụng 1 tháng (hết hạn tự biến mất). Nếu bạn muốn tạo nhiều ảnh hơn thì có thể nạp tiền vào tài khoản để mua thêm credit (hạn 12 tháng).</p>
+            </li>
+            <li><h2>4.Midjourney</h2></li>
+            <p>Trùm cuối hy vọng sẽ không làm các bạn thất vọng. Đây là một trong những AI tạo ra image rất đẹp, các bạn có thể xem những ảnh được cộng đồng tạo ra mới nhất ở đây: Midjourney Community Showcase
+
+                Để sử dụng AI này các bạn cần đăng ký tài khoản Discord trước, sau đó join vào server của Midjourney để tạo ảnh bằng cách tương tác với bot Midjourney trên Discord. Chú ý với tài khoản mới thì chúng ta sẽ có miễn phí 25 lần request, sau đó sẽ phải nạp tiền vào để sử dụng tiếp (hoặc bạn có thể tạo tài khoản mới để có thêm 25 lần miễn phí).</p>
+                <img src="anh-4.png" alt="ảnh">
+                <p>Truy cập trang chủ của midjourney chọn Join the Beta hoặc vào thẳng Midjourney Discord server
+
+                    Sau khi join được vào Midjourney Discord server, tìm đến các channel dành cho Newbie. Chúng ta sẽ tạo ảnh ở đây, và cũng có thể xem ảnh do người khác tạo để tham khảo các ý tưởng (keyword) và sản phẩm của họ.
+                    
+                    </p>
+
+        </ul>
+        
+        </div>
+        <div class="side-bar">
+
+            <div class="head">
+                <h3>ĐẦU MỤC BÀI VIẾT</h3>
+                <ol class="head-1">
+                    <li><a href="">DeepAI </a></li>
+                    <li><a href="">Stable Diffusion</a></li>
+                    <li><a href="">DALL-E</a></li>
+                    <li><a href="">Midjoumey</a></li>
+
+                </ol>
+            </div>
+            <div class="noi-dung">
+                <H3>BÀI VIẾT LIÊN QUAN</H3>
+                <div class="chitiet">Vẽ thiết kế UML sử dụng ChatGPT</div>
+                <div class="chitiet">Ref và Reactive trong Vue 3</div>
+                <div class="chitiet">Hướng dẫn tạo tài khoản và sử dụng Chat GPT chỉ với 1 cốc trà đá</div>
+                <div class="chitiet">Yêu cầu ChatGPT lập trình Spring Boot</div>
+                <div class="chitiet">Chia sẻ cách học Tiếng Anh cho người nghèo</div>
+
+            </div>
+            <div class="tong-ket">
+                <H3 class="tk.3">KHÓA HỌC HAY</H3>
+                <DIV class="chitiet">Khóa học Kubemetes căn bản qua các ví dụ</DIV>
+                <DIV class="chitiet">Git căn bản đến nâng cao</DIV>
+                <DIV class="chitiet">PYTHON cơ bản cho nghề PHÂN TÍCH DỮ LIỆU</DIV>
+                <DIV class="chitiet">Web cơ bản HTML5,CSS3 và Javascript Online</DIV>
+                <DIV class="chitiet">Web Frontend nâng cao với React</DIV>
+            </div>
+        </div>
+    </div>
+    <div class="icon">
+        <a href="#top" class="back">
+            <img src="icon-256x256.png" alt="back-top-top"title="back-to-top"></a>
+    </div>
+</body>
+
+</html>
