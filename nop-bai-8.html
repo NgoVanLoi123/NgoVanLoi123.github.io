@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: brown;
+            margin:0;
+        }
+        #wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+
+        span {
+            color: antiquewhite;
+            font-size: 20px;
+            text-transform: uppercase;
+            background-color: indigo;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: aliceblue;
+            list-style-type: none;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        .product li img {
+            width: 250px;
+            height: 250px;
+            transition: transform 0.5s ease-in-out;
+
+        }
+
+        .product-item {
+            margin: 15px;
+        }
+
+        ul.product li .product-info a {
+            display: block;
+            text-decoration: none;
+        }
+
+        ul.product li .product-info a.product-cat {
+            font-size: 11px;
+            margin-top: 15px;
+            color: gray;
+        }
+
+        ul.product li .product-info a.product-name {
+            font-weight: bold;
+        }
+
+        .product-price {
+            color: crimson;
+            font-size: 20px;
+        }
+
+        a.buy-now {
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: aliceblue;
+            background-color: darkred;
+            padding: 15px;
+            text-align: center;
+        }
+
+        a.buy-now:hover {
+            background-color: brown;
+        }
+
+        .header {
+            height: 15vh;
+            width:100vw;
+          
+
+        }
+
+        .title {
+            height: 10vh;
+            display: flex;
+            background-color: brown;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ip1 {
+            height: 4vh;
+            width: 400px;
+        }
+
+        .ip2 {
+            height: 35px;
+            width: 70px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .logo {
+            position: absolute;
+            left: 100px;
+            font-size: 50px;
+            color: aliceblue;
+        }
+
+        .list-menu {
+            height: 5vh;
+            background-color: black;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            color: red;
+            align-items: center;
+            position: relative;
+        }
+
+        .menu-cap2 {
+            list-style: none;
+            position: absolute;
+            left: 157px;
+            top: 30px;
+            display:none;
+            background-color: white;
+            
+        }
+        .menu-cap2 li{
+            margin:5px 20px 10px 0;
+            color:black;
+            font-size:20px;
+        }
+       
+        .list1:hover .menu-cap2 {
+            display: block;
+
+        }
+        .list-menu li a{
+            color:aliceblue
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <a CLASS="logo" href="">NVL SHOP</a>
+            <form action="">
+                <input class="ip1" type="text">
+                <input class="ip2" type="button" value="search">
+            </form>
+        </div>
+        <div class="menu">
+            <ul class="list-menu">
+                <li class="list1"><a href="">Điện thoại</a>
+                    <ul class="menu-cap2">
+                        <li>Iphone11</li>
+                        <li>Iphone12</li>
+                        <li>Iphone13</li>
+                        <li>Oppo Ren8T</li>
+                        <li>SamSung</li>
+                    </ul>
+                </li>
+                <li><a href="">Laptop</a></li>
+                <li><a href="">Bàn phím</a></li>
+                <li><a href="">Tai nghe</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="wrapper">
+
+        <ul class="product">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="iphone111.webp" alt="iphone 11" title="Iphone 11" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Iphone</a>
+                        <a href="" class="product-name">Iphone 11 64GB</a>
+                        <div class="product-price">11.499.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="iphone12.webp" alt="iphone 12" title="Iphone 12" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Iphone</a>
+                        <a href="" class="product-name">Iphone 12 128GB</a>
+                        <div class="product-price">15.599.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="iphone13.webp" alt="IPHONE 13" title="Iphone 13" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Iphone</a>
+                        <a href="" class="product-name">Iphone 13 Pro</a>
+                        <div class="product-price">17.990.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="oppo.webp" alt="oppo" title="Oppo Reno 8T" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Oppo</a>
+                        <a href="" class="product-name">Oppo Reno 8T</a>
+                        <div class="product-price">9.990.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="samsung.webp" alt="Samsung " title="Samsung galaxy s22 Ultra" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">SamSung</a>
+                        <a href="" class="product-name">SamSung Galaxy S22 Ultra</a>
+                        <div class="product-price">23.990.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="MACK.webp" alt="Macbook" title="MacBook" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Macbook</a>
+                        <a href="" class="product-name">MacBook Air M2 2022 13 inch
+                        </a>
+                        <div class="product-price">27.490.000 ₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="tainghe.webp" alt="tai nghe" title="Tai nghe Gaming" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Tai nghe</a>
+                        <a href="" class="product-name">Tai nghe gaming Corsair HS60 có mic
+                        </a>
+                        <div class="product-price">2.655.000 ₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="bàn phím.webp" alt="bàn phím" title="Bàn phím Gaming" />
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+
+                    <div class="product-info">
+                        <a href="" class="product-cat">Bàn phím</a>
+                        <a href="" class="product-name">Bộ bàn phím chuột Gaming Prolink
+                        </a>
+                        <div class="product-price">600.000₫</div>
+                    </div>
+
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
